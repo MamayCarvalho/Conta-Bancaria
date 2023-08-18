@@ -29,26 +29,26 @@ public class ContaBancaria {
 			System.out.println("Informe o valor inicial para o depósito: ");
 			double valor = sc.nextDouble();
 			banco.addSaldo(valor);
-			System.out.println("\nDados da conta: \n" + banco.toString());
+			System.out.println("\nDados da conta: \n" + banco);
 			System.out.println("Insira um valor para deposito: ");
 			valor = sc.nextDouble();
 			banco.addSaldo(valor);
-			System.out.println("\nAtualização dos dados da Conta: \n" + banco.toString());
+			System.out.println("\nAtualização dos dados da Conta: \n" + banco);
 			System.out.println("Insira um valor para retirada: ");
 			valor = sc.nextDouble();
 			banco.removeSaldo(valor);
-			System.out.println("Atualização dos dados da Conta: " + banco.toString());
+			System.out.println("Atualização dos dados da Conta: " + banco);
 			
 		}else{
-			System.out.println("\nDados da conta: \n" + banco.toString());
+			System.out.println("\nDados da conta: \n" + banco);
 			System.out.println("Insira um valor para deposito: ");
 			double valor = sc.nextDouble();
 			banco.addSaldo(valor);
-			System.out.println("\nAtualização dos dados da Conta: \n"+ banco.toString());
+			System.out.println("\nAtualização dos dados da Conta: \n"+ banco);
 			System.out.println("Insira um valor para retirada: ");
 			valor = sc.nextDouble();
 			banco.removeSaldo(valor);
-			System.out.println("Atualização dos dados da Conta: " + banco.toString());
+			System.out.println("Atualização dos dados da Conta: " + banco);
 		}
 		
 		sc.close();
